@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+
+}
+.bg{
+    background-image: url(../img/banner-01.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+.b{
+    background-image: url(../img/paris.png);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.717);
+    height: 100%;
+
+
+}
+.opk{
+    color: white;
+   
+}
+.poij{
+    color: #cccccc
+    ;
+}
+.ijm{
+    width: 70%;
+}
+.cop{
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+}
+.opii{
+    padding: 25px;
+}
+.io{
+    padding-right:1px;
+}
+.io span{
+font-size: 30px;
+}
+.io i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+   padding: 15px;
+    background-color: #808080;
+    border-radius: 25%;
+}
+#top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+    z-index: 10000000000 ;
+}
+.btnj{
+color: white;
+background-color: #ff8533;
+padding: 15px;
+
+
+}
+.bglayr{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.717);
+    transition: all .5s;
+}
+
+.col-md-4:hover .bglayr{
+ 
+    top:0;
+}
+
+.the i{
+font-size: 40px;
+padding: 20px;
+margin: auto ;
+text-align: center;
+
+}
+.activlink{
+    background-color: #ff8533;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.gg{
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+  
+}
+.col-md-4{
+overflow: hidden;
+}
+.gglayer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.717);
+    z-index: -2345678933993944892484;
+}
+
+.fkk{
+    background-color: antiquewhite;
+    border: #cccccc;
+}
+
+
+
+
+.poij{
+    color: rgb(129, 129, 129);
+}
+
+
+.nav ul li a{
+    color: darkorange;
+
+}
