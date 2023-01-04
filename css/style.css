@@ -1,136 +1,95 @@
-*{
-    padding: 0;
-
+.navbar ul li a{
+  color:snow;  
 }
-.bg{
-    background-image: url(../img/banner-01.jpg);
-    height: 100vh;
-    background-position: center center;
-    background-size: cover;
-
+.all a{
+  color: snow;
 }
-.b{
-    background-image: url(../img/paris.png);
-    height: 100vh;
-    background-position: center center;
-    background-size: cover;
+.navbar{
+  background-color:rgba(0, 0, 0, 0.557);
+  width: 100%;
 }
-.overlay{
-    background-color: rgba(0, 0, 0, 0.717);
-    height: 100%;
+.all2{
+  background-image:url(../img/banner-01.jpg) ;
 
 
+background-position: center center;
+background-size: cover;
+height: 100vh;
+position: relative;
 }
-.opk{
-    color: white;
-   
-}
-.poij{
-    color: #cccccc
-    ;
-}
-.ijm{
-    width: 70%;
-}
-.cop{
-    color: black;
-    font-size: 25px;
-    padding: 15px;
-}
-.opii{
-    padding: 25px;
-}
-.io{
-    padding-right:1px;
-}
-.io span{
-font-size: 30px;
-}
-.io i{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-   padding: 15px;
-    background-color: #808080;
-    border-radius: 25%;
-}
-#top{
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    display: none;
-    z-index: 10000000000 ;
-}
-.btnj{
-color: white;
-background-color: #ff8533;
-padding: 15px;
-
-
-}
-.bglayr{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.717);
-    transition: all .5s;
-}
-
-.col-md-4:hover .bglayr{
- 
-    top:0;
-}
-
-.the i{
-font-size: 40px;
-padding: 20px;
-margin: auto ;
-text-align: center;
-
-}
-.activlink{
-    background-color: #ff8533;
-    padding: 10px;
-    border-radius: 50px;
-    
-}
-
-.gg{
-    background-image: url(../img/bg.png);
-    background-position: center center;
-    background-size: cover;
-    height:100vh;
-    position: relative;
-  
-}
-.col-md-4{
-overflow: hidden;
-}
-.gglayer{
-    position: absolute;
+.layer{
+   position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.717);
-    z-index: -2345678933993944892484;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.big{
+  color: white;
+  font-size: 80px;
+
+}
+.ort p{
+font-size: 20px;
 }
 
-.fkk{
-    background-color: antiquewhite;
-    border: #cccccc;
+.ort{
+color: white;
+     z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000;
+    
+}
+.spiner{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  overflow: hidden;
+
+}
+.spiner{
+  margin-left: 12px;
+  box-sizing: border-box;
+ 
+  
+}
+
+.spiner h1{
+padding-left: 20px;}
+
+
+#top{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;
+  z-index: 10000000000 ;
 }
 
 
-
-
-.poij{
-    color: rgb(129, 129, 129);
+.typewrite { color:#fff; text-decoration: none;}
+.bglayr{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.717);
+  transition: all .5s;
 }
 
+.col-md-4:hover .bglayr{
 
-.nav ul li a{
-    color: darkorange;
+  top:0;
+}
+.gg{
+ background-image: url(../img/th.jpeg); 
 
+
+
+ background-position: center center;
+ background-size: cover;
+ height: 100vh;
+ position: relative;
 }
